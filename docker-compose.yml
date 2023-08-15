@@ -1,0 +1,7 @@
+version: '3.9'
+
+services:
+    open-resume:
+        image: ravnoor/open-resume
+        ports:
+            - '3636:3000'
